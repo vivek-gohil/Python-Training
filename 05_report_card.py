@@ -1,0 +1,42 @@
+print("***************")
+print("Welcome to BIS")
+print("***************")
+print("")
+print("")
+print("Student Report Card")
+print("")
+roll_number=int(input("Enter your roll number :: "))
+name=input("Enter your name :: ")
+class_name=input("Enter your class :: ")
+div=input("Enter your division :: ")
+maths=int(input("Enter Marks in Maths out of 10 :: "))
+science=int(input("Enter Marks in Science out of 10 :: "))
+english=int(input("Enter Marks in English out of 10 :: "))
+it=int(input("Enter Marks in IT out of 10 :: "))
+
+total_marks=maths+science+english+it
+percentage=total_marks/40*100
+average=total_marks/4
+
+
+print("")
+print("Thank you! for student details")
+print("");
+print("Student Report Card")
+print("Student Name :: ",name,"Roll number :: ", roll_number)
+print("Class :: ",class_name,"Division :: ",div)
+print("Marks in Maths :: ",maths)
+print("Marks in Science :: ",science)
+print("Marks in English :: ",english)
+print("Marks in IT :: ",it)
+print("+++++++++++++++++++++++++++")
+print("Total = ",total_marks)
+print("+++++++++++++++++++++++++++")
+print("")
+print("+++++++++++++++++++++++++++")
+print("Percentage = ",percentage)
+print("+++++++++++++++++++++++++++")
+print("")
+print("+++++++++++++++++++++++++++")
+print("Average = ",average)
+print("+++++++++++++++++++++++++++")
